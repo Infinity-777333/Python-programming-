@@ -20,11 +20,11 @@ print("\n")
 
 r1=rect(l1,b1)
 r2=rect(l2,b2)
-print("Area of first rectangle1:",r1.area())
-print("Area of first rectangle2:",r2.area())
+print("Area of first rectangle:",r1.area())
+print("Area of second rectangle:",r2.area())
 print("\n\n")
-print("Perimeter of rectangle1:",r1.perimeter())
-print("Perimeter of rectangle2:",r2.perimeter())
+print("Perimeter of first rectangle:",r1.perimeter())
+print("Perimeter of second rectangle:",r2.perimeter())
 
 print("\n")
 if(r1.area()>r2.area()):
@@ -34,3 +34,4 @@ if(r1.area()>r2.area()):
 else:
     
     print("Highest area is:",r2.area())
+
