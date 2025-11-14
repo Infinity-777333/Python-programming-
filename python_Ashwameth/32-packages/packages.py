@@ -9,7 +9,7 @@ w=int(input("Width:"))
 print("\nArea of rectangle:",rect_area(l,w))
 print("Perimeter of the rectangle:",rect_perimeter(l,w))
 
-r=int(input("\n\nEnter the radius of the sphere:"))
+r=int(input("\n\nEnter the radius of the circle:"))
 print("\narea of the circle is",circle_area(r))
 print("Perimeter of the circle",circle_perimeter(r))
 
@@ -23,4 +23,5 @@ print("\nVolume of the cuboid:",cuboid_volume(l,w,h))
 print("\n\nEnter the radius of the sphere:")
 r=int(input("Radius:"))
 print("\nSurface area of sphere:",sphere_surface_area(r))
+
 print("Volume of sphere:",sphere_volume(r))
