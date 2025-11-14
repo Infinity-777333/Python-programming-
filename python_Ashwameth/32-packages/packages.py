@@ -20,9 +20,10 @@ h=int(input("Height:"))
 print("\nSurface area of cuboid:",cuboid_surface_area(l,w,h))
 print("\nVolume of the cuboid:",cuboid_volume(l,w,h))
 
-print("\n\nEnter the radius of the sphere:")
-r=int(input("Radius:"))
+print("\n\n")
+r=int(input("Enter the radius of the sphere:"))
 print("\nSurface area of sphere:",sphere_surface_area(r))
 
 print("Volume of sphere:",sphere_volume(r))
+
 
