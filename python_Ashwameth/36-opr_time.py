@@ -10,7 +10,7 @@ class Time:
 
         mit=mit+int(sec/60)
         sec=sec%60
-        hr=hr+int(hr/60)
+        hr=hr+int(mit/60)
         mit=mit%60
 
         return Time(hr,mit,sec)
@@ -40,3 +40,4 @@ print("Time 2=",end=" ")
 r2.display()
 print("Sum=",end=" ")
 r3.display()
+
